@@ -23,5 +23,10 @@ public class productcontroller {
         return "search";
     }
 
+    @PostMapping("/edit")
+    public String edit(){
+        return "edit";
+    }
+
 
 }
